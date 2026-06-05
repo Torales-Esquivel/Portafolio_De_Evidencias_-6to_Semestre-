@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: rgb(9, 54, 33);
+}
+#Contenedor{
+    width: 750px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+}
+header{
+    width: 750px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+}
+#ESLOGAN{
+    width: 750px;
+    height: 200px;
+    background: rgb(255, 247, 247);
+    float: right;
+    position: relative;
+}
+#Titulo{
+    position: absolute;
+
+    top: 140px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    color: rgb(6, 141, 146);
+
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+#DD{
+    width: 750px;
+    height: 200px;
+    background: rgb(123, 255, 226);
+    float: left;
+}
+nav{
+    width: 750px;
+    height: 50px;
+    background: rgb(128, 204, 191);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 54, 43);
+}
+nav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    text-shadow: 30px;
+    color: rgb(0, 139, 127);
+}
+main{
+    width: 750px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+
+    display: flex;
+   flex-direction: column;
+}
+.perfil{
+    display: flex;
+
+    width: 300;
+    height: 400px;
+    min-height: 350px;
+}
+.detalles{
+    width: 650px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    width: 750px;
+    height: 50px;
+    background: rgb(128, 204, 191);
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 54, 43);
+}
+footer a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    text-shadow: 30px;
+    color: rgb(0, 139, 127);
+}

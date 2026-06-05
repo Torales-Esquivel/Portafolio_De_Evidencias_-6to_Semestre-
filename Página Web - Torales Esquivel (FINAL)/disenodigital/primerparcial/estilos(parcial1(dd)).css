@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: rgb(197, 182, 117);
+}
+#CONTENEDOR{
+    width: 1000px;
+    height: 1500px;
+    background: rgb(233, 233, 255);
+    margin: auto;
+    margin-top: 50px;
+}
+header{
+    width: 1000px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+}
+#ESLOGAN{
+    width: 1000px;
+    height: 200px;
+    background: rgb(255, 247, 247);
+    float: right;
+    position: relative;
+}
+#Titulo{
+
+    position: absolute;
+
+    top: 140px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: rgb(51, 13, 11);
+
+    font-size: 40px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    letter-spacing: 3px;
+}
+#IA{
+    width: 1000px;
+    height: 200px;
+    background: rgb(123, 185, 255);
+    float: left;
+}
+nav{
+    width: 1000px;
+    height: 100px;
+    background:  rgb(197, 182, 117)
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(156, 123, 32);
+}
+nav a{
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    text-shadow: 30px;
+    color: rgb(65, 56, 5);
+}
+main{
+    width: 1000px;
+   background: white;
+
+   display: flex;
+   flex-direction: column;
+}
+.actividad{
+    display: flex;
+
+    width: 1000px;
+    min-height: 350px;
+}
+.imagenes{
+    width: 400px;
+    background: rgb(80, 57, 28);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 600px;
+    background: rgb(216, 204, 163);
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+.imgActividad{
+    width: 200px;
+    height: 325px;
+}
+footer{
+
+    width: 1000px;
+    height: 150px;
+
+    background: rgb(197, 182, 117);
+
+    color: rgb(65, 56, 5);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 20px;
+}
